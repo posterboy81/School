@@ -2,29 +2,18 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<meta name="author" content="Matthew Simpson / a00820997">
+	<meta name="author" content="Matthew Simpson">
 	<meta name="description" content="COMP 1850 - Final Project">
 	<link rel="stylesheet" type="text/css" href="main-stylesheet.css">
 	<style>		
 		
-		main {
-			height: 900px;
+		main{
+		
 		}
 		
 		main #map-left {
 			float: left;
 			padding-right: 20px;
-			width: 40%;
-		}
-	
-		main #map-left dl {
-			font-family: Helvetica, Arial, sans-serif;
-			font-weight: bold;
-			font-size: 20px;	
-		}
-		
-		main #map-left dl dt {
-			color: #e85a4f;
 		}
 			
 		main #map-right {
@@ -34,13 +23,13 @@
 			padding: 20px 20px 20px 400px;
 		}
 		
-		main #map-right img {
-			display: block;
-			margin-left: auto;
-			margin-right: auto;
-			max-width: 100%;
+		main #map-right ul {
+			list-style: none;
 		}
 		
+		main #map-right ul ul {
+			list-style: circle;
+		}
 		
 	</style>
 	<title>Final Project</title>
@@ -83,31 +72,42 @@
 <!--  navigation  -->
 <!--  main body  -->
 	<main> 
-	<h2>
-		Top Five Brunch Spots in Vancouver 
-	</h2>
 	<div id="map-left">
-		<dl>
-		<dt>Fable Kitchen</dt>
-		<dd>Fable Kitchen is the first restaurant from celebrity Chef Trevor Bird.  Offering a seasonally changing, farm-to-table menu, Chef Bird makes some of the best food in town.</dd>
-
-		<dt>Bao Bei</dt>
-		<dd>Bao Bei is a Chinese fusion restaurant located in Vancouver's Chinatown neighbourhood.  With their unique blend of western and eastern flavours and a seasonally changing menu, this is one to visit on a regular basis.</dd>
-		
-		<dt>Les Faux Bourgeois</dt>
-		<dd>Located in the Kingsway neighbourhood of Vancouver Les Faux Bourgeois brings the best of classic French cuisine to the city.  Definitely try their steaks.</dd>
-		
-		<dt>Ousi Bistro</dt>
-		<dd>Gumbo and po boys and jambalaya and jazz music, Ousi Bistro brings New Orleans to the pacific northwest.  Check them out in the South Granville Rise.</dd>
-		
-		<dt>L'Ufficio at La Quercia</dt>
-		<dd>Don't ask questions, just head to L'Ufficio, sister space of La Quercia, for the best Italian, multi-course Cena alla Famiglia you will have in Vancouver.  </dd>
-		</dl>
+		<img src="img/sitemap.jpg" alt="sitemap"> 
 	</div>
 	<div id="map-right">
-	
-	<img src="img/brunch-burger.jpg" alt="brunch burger">
-	
+	<h2>Sitemap</h2>
+		<ul>
+			<li><a href="main.html">Home</a></li>
+			<li><a href="sitemap.html">Sitemap</a></li>
+		</ul>
+<!-- about -->
+		<ul>
+			<li><a href="about.html">About</a> 
+			<ul>
+				<li><a href="members.html">Members</a></li>
+				<li><a href="story.html">Story</a></li>
+			</ul>
+			</li>
+		</ul>
+<!-- spots -->
+		<ul>
+			<li><a href="spots.html">Spots</a>
+			<ul>
+			<li><a href="brunch-spots.html">Brunch Spots</a></li>
+			<li><a href="not-brunch-spots.html">Not Brunch Spots</a></li>
+			<li><a href="specialties.html">Specialties</a></li>
+			</ul></li>
+		</ul>
+<!-- membership -->
+		<ul>
+			<li><a href="membership.html">Membership</a>
+			<ul>
+			<li><a href="rules.html">Rules</a></li>
+			<li><a href="apply.html">Apply</a></li>
+			</ul>
+			</li>
+		</ul>
 	</div>
 	</main> 
 <!--  main body  -->
