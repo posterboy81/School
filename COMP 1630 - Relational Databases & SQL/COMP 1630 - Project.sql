@@ -1,5 +1,5 @@
 /* 	
-	By:			Matthew Simpson Student ID:
+	By:			Matthew Simpson
 	For:		COMP 1630		Instructor: Mark Bacchus
 	Date:		Fall 2019
 */
