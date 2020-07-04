@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="author" content="Matthew Simpson / a00820997">
+	<meta name="description" content="COMP 1850 - Final Project">
+	<link rel="stylesheet" type="text/css" href="main-stylesheet.css">
+	<style>		
+		
+		main{
+		
+		}
+		
+		main #map-left {
+			float: left;
+			padding-right: 20px;
+		}
+			
+		main #map-right {
+			font-family: Helvetica, Arial, sans-serif;
+			font-weight: bold;
+			font-size: 20px;
+			padding: 20px 20px 20px 400px;
+		}
+		
+		main #map-right ul {
+			list-style: none;
+		}
+		
+		main #map-right ul ul {
+			list-style: circle;
+		}
+		
+	</style>
+	<title>Final Project</title>
+</head>
+<body>
+<div id="centering">
+<!--  header  -->
+	<header>
+		<img src="img/header.jpg" alt="Brunch Club"> 
+		<h1>
+			VanCity Brunch Club 
+		</h1>
+	</header>
+<!--  header  -->
+<!--  navigation  -->
+	<nav>
+		<ul>
+			<li><a href="main.html">Home</a></li>
+			<li><a href="about.html">About</a> 
+			<ul>
+				<li><a href="members.html">Members</a></li>
+				<li><a href="story.html">Story</a></li>
+			</ul>
+			</li>
+			<li><a href="spots.html">Spots</a> 
+			<ul>
+				<li><a href="brunch-spots.html">Brunch Spots</a></li>
+				<li><a href="not-brunch-spots.html">Not Brunch Spots</a></li>
+				<li><a href="specialties.html">Specialties</a></li>
+			</ul>
+			</li>
+			<li><a href="membership.html">Membership</a> 
+			<ul>
+				<li><a href="rules.html">Rules</a></li>
+				<li><a href="apply.html">Apply</a></li>
+			</ul>
+			</li>
+		</ul>
+	</nav>
+<!--  navigation  -->
+<!--  main body  -->
+	<main> 
+	<h2>
+		Application for Membership 
+	</h2>
+	<form name="brunch-application" id="brunch-application" method="post" action="https://webdevbasics.net/scripts/demo.php">
+		<fieldset>
+			<legend>Enter your details</legend> <label for="name">Name:</label> 
+			<input type="text" name="name" id="name" required>
+			<label for="email">E-Mail:</label> 
+			<input type="email" name="email" id="email" required>
+			<label for="income">Gross Annual Income:</label> 
+			<input type="text" name="income" id="income" required>
+		</fieldset>
+		<fieldset>
+			<legend>How many days per week do you eat brunch?</legend> 
+			<ul>
+				<li> 
+				<input type="radio" name="frequency" id="1" value="1">
+				Once </li>
+				<li> 
+				<input type="radio" name="frequecy" id="2" value="2">
+				Twice </li>
+				<li> 
+				<input type="radio" name="frequency" id="3" value="3">
+				Thrice </li>
+				<li> 
+				<input type="radio" name="frequency" id="4" value="4">
+				Four Times</li>
+				<li> 
+				<input type="radio" name="frequency" id="5" value="5">
+				Five Times</li>
+				<li> 
+				<input type="radio" name="frequency" id="6" value="6">
+				Six Times</li>
+				<li> 
+				<input type="radio" name="frequency" id="7" value="7">
+				Seven Times</li>
+				<li> 
+				<input type="radio" name="frequency" id="8" value="8">
+				Eight Times</li>
+			</ul>
+		</fieldset>
+		<fieldset id="savory-sweet">
+			<legend>Describe, in 3000 words <em>or more</em>, why you prefer savoury or sweet dishes in a brunch or breakfast context:</legend> <textarea name="savory-sweet" required rows="5" cols="80"></textarea>
+		</fieldset>
+		<fieldset>
+			<legend>Submit!</legend> <button type="submit" value="submit" id="submit">Submit</button> <button type="reset" value="reset" id="reset">Reset</button> 
+		</fieldset>
+	</form>
+	</main> 
+<!--  main body  -->
+<!--  footer  -->
+	<footer>
+		<p>
+			VanCity Brunch Club is a private social club. 
+		</p>
+		<p>
+			We can be reached at 778.555.5555 or <a>brunchers@vancitybrunch.com</a> 
+		</p>
+		<p>
+			<a href="sitemap.html">Sitemap</a> 
+		</p>
+		<p>
+			Web Design by Matthew Simpson / COMP 1850 
+		</p>
+	</footer>
+<!--  footer  -->
+</div>
+<!-- centering -->
+</body>
+</html>

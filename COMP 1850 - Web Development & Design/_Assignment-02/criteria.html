@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="author" content="Matthew Simpson / a00820997">
+	<meta name="description" content="COMP 1850 - Assignment Two">
+	<link rel="stylesheet" type="text/css" href="main-stylesheet.css">
+	<style>		
+		/* services style */
+			
+		main h1 {
+			font-family: "Courier New", Courier, monospace;
+			color: #c3073f;
+			font-size: 40px;
+			text-align: center;			
+		
+		}
+		
+		main th {
+			color: white;
+		}
+		
+		main td {
+			color: white;
+		}
+		
+	</style>
+	<title>Jurassic Copywriting - Home</title>
+</head>
+<body>
+<div id="centering">
+<!--  header  -->
+	<header>
+		<img src="img/header.png" alt="Jurassic Copywriting"> 
+		<h1>
+			Jurassic Copywriting 
+		</h1>
+	</header>
+<!--  header  -->
+<!--  navigation  -->
+	<nav>
+		<ul>
+			<li><a href="jurassic.html">Home</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="about-us.html">About Us</a></li>
+			<li><a href="audience.html">Audience</a></li>
+			<li><a href="criteria.html">Criteria</a></li>
+			<li><a href="project.html">Project</a></li>
+		</ul>
+	</nav>
+<!--  navigation  -->
+<!--  main body  -->
+	<main> 
+	<h1>
+		Criteria 
+	</h1>
+	<table width="100%" border="1" style="height: 324px;">
+		<tbody>
+			<tr style="height: 18px;">
+				<th style="height: 18px;">Criteria</th>
+				<th style="height: 18px;">My Choice</th>
+				<th style="height: 18px;">Where Found</th>
+			</tr>
+			<tr style="height: 54px;">
+				<td style="height: 54px;">Catalog navigation</td>
+<!-- catalog navigation -->
+				<td style="height: 54px;"> 
+				<p>
+					On the services page each service has a an H2 tag with an identifier, like this: 
+				</p>
+				<p>
+					&lt;h2 id=&quot;printCopy&quot;&gt; 
+				</p>
+				<p>
+					I also linked to these from the service icons on the main page. Each service item has a "back to top" link that take you back to the top of the page, also. 
+				</p>
+				<p>
+					like this: &lt;span class=&quot;backButton&quot;&gt;&lt;a href=&quot;serviceNav&quot;&gt;Back to top&lt;/a&gt;&lt;/span&gt; 
+				</p>
+				<p>
+					this link also has a span tag so I could format them as a class. 
+				</p>
+				</td>
+				<td style="height: 54px;"> 
+				<p>
+					<a href="http://students.bcitwebdev.com/92simp/_Assignment-02/services.html" target="_blank">services page</a> 
+				</p>
+				</td>
+			</tr>
+<!-- catalog navigation -->
+			<tr style="height: 36px;">
+				<td style="height: 36px;">DIV tag</td>
+<!-- div tag -->
+				<td style="height: 36px;"> 
+				<p>
+					This DIV tag creates the secondary navigation menu on the services page: 
+				</p>
+				<p>
+					&lt;div id=&quot;servicesNav&quot;&gt; 
+				</p>
+				<p>
+					There are a few others, including the "centring" ID that I use on each page: &lt;div id=&quot;centering&quot;&gt; 
+				</p>
+				</td>
+				<td style="height: 36px;"><a href="http://students.bcitwebdev.com/92simp/_Assignment-02/services.html">Services Page</a></td>
+			</tr>
+<!-- div tag -->
+			<tr style="height: 36px; vertical-align: top;">
+				<td style="height: 36px;">SPAN tag</td>
+<!-- span tag -->
+				<td style="height: 36px;"> 
+				<p>
+					&lt;span class=&quot;backButton&quot;&gt;&lt;a href=&quot;#servicesNav&quot;&gt;Back to top&lt;/a&gt;&lt;/span&gt; 
+				</p>
+				<p>
+					SPAn tags used to format the "back to top" button on the services catalogue page. 
+				</p>
+				</td>
+				<td style="height: 36px;"> 
+				<p>
+					<a href="http://students.bcitwebdev.com/92simp/_Assignment-02/services.html">Services Page</a> 
+				</p>
+				</td>
+			</tr>
+			<tr style="height: 54px;">
+				<td style="height: 54px;">Semantic element + CSS example</td>
+<!-- semantic tag -->
+				<td style="height: 54px;"> 
+				<p>
+					The MAIN tag is used on every page, and formatter with the main CSS stylesheet 
+				</p>
+				<p>
+					main { background-color: #1a1a1d; padding-top: 30px; padding-left: 5%; padding-right: 5%; padding-bottom: 30px; margin-bottom: 10px; } 
+				</p>
+				</td>
+				<td style="height: 54px;"><a href="http://students.bcitwebdev.com/92simp/_Assignment-02/jurassic.html">MAIN page</a></td>
+			</tr>
+<!-- semantic tag -->
+<!-- span tag -->
+			<tr style="height: 36px;">
+				<td style="height: 36px;">box model</td>
+<!-- box model -->
+				<td style="height: 36px;">
+				<p>
+					I used the box model in several places, most notably the main tag on every page, styled thusly:
+				</p>
+				</td>
+				<p>
+					main { background-color: #1a1a1d; padding-top: 30px; padding-left: 5%; padding-right: 5%; padding-bottom: 30px; margin-bottom: 10px; } 
+				</p>
+				<td style="height: 36px;"><a href="http://students.bcitwebdev.com/92simp/_Assignment-02/jurassic.html">MAIN page</a></td>
+			</tr>
+<!-- box model -->
+			<tr style="height: 36px;">
+				<td style="height: 36px;">Two new HTML5 tags</td>
+<!-- two new tags-->
+				<td style="height: 36px;"><p>&lt;main&gt;, &lt;header&gt;, &lt;footer&gt; on all pages.
+</p>
+<p>technically i used them in the homework, but i had never used them previous to that.</p> </td>
+				<td style="height: 36px;">THIS PAGE</td>
+			</tr>
+<!-- two new tags-->
+			<tr style="height: 54px;">
+				<td style="height: 54px;">Cascade CSS</td>
+<!-- cascading css -->
+				<td style="height: 54px;">
+				<p>
+					The main stylesheet clears all floats on IMGs contained in the MAIN tag
+				</p>
+				<p>
+					main img { clear: both; }
+				</p>
+				<p>
+					which is overridden on the "about us" page embedded css to make the IMGs float right: main img { float: right; }
+				</p>
+				<p>
+					and on the main page the there is an embedded css which clears floats: 
+				</p>
+				<p>
+					main img { clear: both; }
+				</p>
+				<p>
+					and then overridden again with an inline style on the IMG on the main page.
+				</p>
+				<p>
+					&lt;img src=&quot;img/tyranosaur.png&quot; alt=&quot;Tyranosaurus&quot; style=&quot;float: right;&quot;&gt; 
+				</p>
+				</td>
+				<td style="height: 54px;"><a href="http://students.bcitwebdev.com/92simp/_Assignment-02/jurassic.html">MAIN page</a>
+				<a href="http://students.bcitwebdev.com/92simp/_Assignment-02/about-us.html">ABOUT US page</a>
+				</td>
+			</tr>
+<!-- cascading css -->
+		</tbody>
+	</table>
+	</main> 
+<!--  main body  -->
+<!--  footer  -->
+	<footer>
+		<p>
+			Contact us: 
+		</p>
+		<p>
+			1234 Any Street, Vancouver, Canada. 
+		</p>
+		<p>
+			Ph: 604.640.6040 
+		</p>
+		<p>
+			Email: <a href="email:info@jurassiccopywriting.ca">info@jurassiccopywriting.ca</a> 
+		</p>
+	</footer>
+<!--  footer  -->
+</div>
+<!-- centering -->
+</body>
+</html>
